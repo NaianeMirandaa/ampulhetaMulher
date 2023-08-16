@@ -1,2 +1,2 @@
 # ampulhetaMulher
-Página de vendas para meu livro artesanal de poesias ilustradas
+Página de vendas para meu livro artesanal de poemas ilustrados
