@@ -11,8 +11,8 @@ body{
 }
 header{
     background-color: #fff;
-    box-shadow: 0px 1px 20px #9e9e9e
-    
+    box-shadow: 0px 1px 20px #9e9e9e;
+    width: 100vw;
 }
 .navBar{
     display: flex;
@@ -46,12 +46,49 @@ header{
 .mobileMenu{
     display: none;
 }
-@media screen and (max-width: 700px) {
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 2.5rem;
+    padding-bottom: 0;
+}
+.capa{
+    margin-right: 4rem;
+}
+h1 {
+    color: #7C657D;
+    font-family:'Arimo';
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.botaoPrincipal{
+    background-color: #7C657D;
+    padding: 1rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+p{
+    margin-bottom: 1.5rem;
+}
+.autora{
+    background: url(assets/imagens/fotos/papersection.png) no-repeat;
+    width: 100vw;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media(max-width: 700px) {
     .navItem{
         display: none;
     }
     .mobileMenuIcon{
         display: block;
+        border: 0;
 
     }
     .mobileMenuIcon button{
@@ -71,5 +108,25 @@ header{
     /*classe nova que será utilizada para mostrar ou não o mobileMenu*/
     .open{
         display: block;
+    }
+    .inicio{
+        display: flex;
+        flex-direction: column;
+    }
+    .capa{
+        margin: 0;
+        padding: 2.5rem;
+    }
+    .textBlock{
+        text-align: center;
+    }
+}
+@media(max-width: 900px){
+    .inicio{
+        display: flex;
+        justify-content:space-around;
+    }
+    .capa{
+        margin:0;
     }
 }
