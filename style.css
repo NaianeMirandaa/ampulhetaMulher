@@ -232,7 +232,7 @@ section{
     margin: 1vw;
 }
 .fraseEfeito{
-    width: max(290px,80vw);
+    width: max(300px,80vw);
 }
 .detalhamentos{
     color: #7C657D;
@@ -504,12 +504,6 @@ section{
     }
     .rodape{
         padding: 2vw 2vw;
-    }
-    .faq h1{
-        font-size: 16px;
-    }
-    .faq h2{
-        font-size: 14px;
     }
 }
 
