@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="naiane miranda">
+    <meta name="description" content=" página de apresentação do livro de poemas ampulheta-mulher, escrito por naiane miranda">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>ampulheta mulher</title>
 </head>
 <body>
@@ -36,7 +38,7 @@
                 </ul>
             </div>
             <div class="mobileMenuIcon">
-                <button onclick="menuShow()"><img class="icon" src="assets/imagens/icones/barsSolid.png" alt="icone de menu"></button>
+                <button class="botaoMenu" onclick="menuShow()"><img class="icon" src="assets/imagens/icones/barsSolid.svg" alt="icone de menu"></button>
             </div>
         </nav>
         <div class="mobileMenu">
@@ -64,29 +66,27 @@
     </header>
     <main>
         <section id="inicio" class="inicio">
-        <div class="capa">
-        <img src="assets/imagens/fotos/capaAmpulhetaMulher.png" alt="foto da capa do livro">
-        </div>
-        <div class="textBlock">
-            <h1>um elo entre mulheres<br>costurado por um par de mãos</h1>
-            <p>
-                "em um movimento de crescente fértil,
-                a poetisa nos guia pelas areias movediças 
-                da perene (re)descoberta do ser-mulher. <br>
-                <br>
-                suas estrofes são doses de estimulante, 
-                incentivando-nos a nunca quedarmos ante os 
-                vórtices que teimam em nos balançar 
-                ao seu bel prazer[...]"
+            <img class="capa" src="assets/imagens/fotos/capaAmpulhetaMulher.png" alt="foto da capa do livro">
+            <div class="textBlock">
+                <h1>um elo entre mulheres<br>costurado por um par de mãos</h1>
+                <p>
+                    "em um movimento de crescente fértil,
+                    a poetisa nos guia pelas areias movediças 
+                    da perene (re)descoberta do ser-mulher. <br>
+                    <br>
+                    suas estrofes são doses de estimulante, 
+                    incentivando-nos a nunca quedarmos ante os 
+                    vórtices que teimam em nos balançar 
+                    ao seu bel prazer[...]"
 
-            </p>
-            <button class="botaoPrincipal">quero o meu exemplar!</button>
-        </div>
+                </p>
+                <a href="https://nacurvacriativa.lojavirtualnuvem.com.br/produtos/ampulheta-mulher-naiane-miranda-livro-artesanal-ilustrado/" target="_blank"><button class="botaoPrincipal">quero o meu exemplar!</button></a>
+            </div>
         </section>
         <section class="inicioBloco2">
             <div class="textBlock">
                 <h1>
-                    uma obra<br>artesanal e artística
+                    uma obra artesanal e artística
                 </h1>
                 <p>
                     a matéria física deste livro existe a partir do processo de encadernação manual e dá vazão à outras expressões intelectuais e artísticas: <br>
@@ -103,22 +103,32 @@
         <section id="depoimentos" class="depoimentos">
             <h1>olhares sobre ampulheta mulher</h1>
             <div class="blocosDepoimentos">
-                <div class="depsWY">
-                    <div class="blocoDepoimento">
-                        <img src="assets/imagens/fotos/depWilma.png" alt="print de depoimento, da Wilma, que diz: 'O livro é lindo e a escrita possui uma suavidade, mas essa suavidade não impediu de perceber tamanha força em seus versos. Eu também fiquei encantada com ilustrações, é com toda certeza uma obra completa. Naiane é uma autora maravilhosaaaaaa!'">
-                    </div>
-                    <div class="blocoDepoimentoY">
-                        <img src="assets/imagens/fotos/depYasBotelho.png" alt="print do segundo depoimento, da Yasmin Botelho, que diz: 'Com essa dedicatória lindíssima deixo aqui essaindicação de leitura. Ampulheta Mulher é um livro de poesias e ilustrações autorais de Naiane Miranda. Conheci Naiane há um tempinho aui no Instagram e desde então tenho estado apaixonada por sua arte e escrita, em seu livro, ela escreve sobre ser mulher, maternidade, tempo e vivência. Recentemente participei do sarau de publicação do livro e foi lindo, se naquela época já tinha certeza de que o livro seria lindo, agora então...
-                        Por fim, leiam Naiane! '">
-                    </div>
+                <div class="depoimento">
+                    <img class="leftQuoteIcon" src="assets/imagens/icones/leftQuoteIcon.svg" alt="ícone de citação">   
+                    <p> O livro é lindo e a escrita possui uma suavidade, mas essa suavidade não impediu de perceber tamanha força em seus versos. Eu também fiquei encantada com ilustrações, é com toda certeza uma obra completa. <br>Naiane é uma autora maravilhosa!
+                    </p>
+                    <p class="autoraDepoimento">- wilma de jesus</p>
+                    <img class="rightQuoteIcon" src="assets/imagens/icones/rightQuoteIcon.svg" alt="ícone de citação">   
                 </div>
-                <div class="blocoDepoimento7N">
-                    <img src="assets/imagens/fotos/dep7Nevoras.png" alt="print do terceiro dpoimento, da Karine, que diz: ''">
+                <div class="depoimento">
+                    <img class="leftQuoteIcon" src="assets/imagens/icones/leftQuoteIcon.svg" alt="ícone de citação"> 
+                    <p>[...]Ampulheta Mulher é um livro de poesias e ilustrações autorais de Naiane Miranda. Conheci Naiane há um tempinho no Instagram e desde então tenho estado apaixonada por sua arte e escrita, em seu livro, ela escreve sobre ser mulher, maternidade, tempo e vivência. 
+                    </p>
+                    <p class="autoraDepoimento">- yasmin botelho</p>
+                    <img class="rightQuoteIcon" src="assets/imagens/icones/rightQuoteIcon.svg" alt="ícone de citação">
+                </div>
+                <div class="depoimento">
+                    <img class="leftQuoteIcon" src="assets/imagens/icones/leftQuoteIcon.svg" alt="ícone de citação"> 
+                    <p> a moça desfazendo as tranças, a mãe num trançar de dúvidas, a velha traçada pelo tempo, é a ampulheta que se renova [...] a ampulheta traz o tempo de mulher e a face de mulheres embebidas no desejo. é nítida a contemplação da tríade: moça, mãe e idosa.
+                    </p>
+                    <p class="autoraDepoimento">- karine alves</p>
+                    <img class="rightQuoteIcon" src="assets/imagens/icones/rightQuoteIcon.svg" alt="ícone de citação">
                 </div>
             </div>
         </section>
         <section id="autora" class="autora">
             <img class="fotoAutora" src="assets/imagens/fotos/minhaFoto.png" alt="foto da autora: mulher parda com cabelos pretos cacheados na altura dos ombros, ao seu redor há flores, caules, folhas, estrelas e borboletas desenhadas">
+            
             <div class="textBlock">
             <h1>por trás da ampulheta: a autora</h1>
             <p>
@@ -131,24 +141,27 @@
         <section id="detalhes" class="detalhes">
             <h1>único em cada detalhe</h1>
             <div class="contentDetalhes">
-                <img class="imgDetalhes" src="assets/imagens/fotos/detalhe1.png" alt="">
-                <img class="imgDetalhes" src="assets/imagens/fotos/detalhe2.png" alt="">
-                <img class="imgDetalhes" src="assets/imagens/fotos/detalhe3.png" alt="">
-                <img class="imgDetalhes" src="assets/imagens/fotos/detalhe4.png" alt="">
+                <div class="contentDetalhes--blocos">
+                    <img class="imgDetalhes" src="assets/imagens/fotos/detalhe1.png" alt="">
+                    <img class="imgDetalhes" src="assets/imagens/fotos/detalhe2.png" alt="">
+                </div>
+                <div class="contentDetalhes--blocos">
+                    <img class="imgDetalhes" src="assets/imagens/fotos/detalhe3.png" alt="">
+                    <img class="imgDetalhes" src="assets/imagens/fotos/detalhe4.png" alt="">
+                </div>  
             </div>
-            <img src="assets/imagens/fotos/ampulhetaMulherLivroArte.png" alt="a imagem contém a frasee: mais que o livro, uma obra de arte para chamar de sua">
             <div class="valores">
+                <img class="fraseEfeito" src="assets/imagens/fotos/ampulhetaMulherLivroArte.png" alt="a imagem contém a frase: mais que o livro, uma obra de arte para chamar de sua">
                 <p class="detalhamentos">
                     por apenas
                 </p>
                 <p class="preco">
-                    <strong>R$38,90</strong>
+                    <strong>R$45,90</strong>
                 </p>
                 <p class="detalhamentos">
-                    dividido em até 3X<br>
-                    frete grátis para todo o brasil!
+                    em até 3X sem juros!<br>
                 </p>
-                <button class="botaoPrincipal">quero o meu exemplar!</button>
+                <a href="https://nacurvacriativa.lojavirtualnuvem.com.br/produtos/ampulheta-mulher-naiane-miranda-livro-artesanal-ilustrado/" target="_blank"><button class="botaoPrincipal">quero o meu exemplar!</button></a>
             </div>
         </section>
         <hr>
@@ -156,31 +169,59 @@
             <h1>
                 respostas que podem te interessar
             </h1>
-            <div class="faqQuestion">
-                <p><strong>como funciona o processo de encomenda?</strong></p>
+            <div class="faqContent">
+                <button class="pergunta">
+                    <h2>como funciona o processo de encomenda?</h2>
+                    <img class="iconFaq" src="assets/imagens/icones/iconSetaFaqClosed.svg" alt="saiba mais">
+                </button>
+                <p class="resposta">para encomendar o seu exemplar, basta clicar no botão acima e acessar a página de pagamentos - lembre-se de preencher o seu endereço completo e whatsApp para contato. <br><br> depois que o pagamento for confirmado, o seu livro entrará em processo de produção e envio.</p>
             </div>
-            <div class="faqQuestion">
-                <p><strong>em quanto tempo terei meu livro em mãos?</strong></p>
+            <div class="faqContent">
+                <button class="pergunta">
+                    <h2>em quanto tempo terei meu livro em mãos?</h2>
+                    <img class="iconFaq" src="assets/imagens/icones/iconSetaFaqClosed.svg" alt="saiba mais">
+                </button>
+                <p class="resposta">como é produção sob demanda e artesanal, pode levar até 1 mês para chegar até em seu endereço, mas garanto que o tempo de espera valerá a pena 💜 
+                <br><br>
+                <strong>observação:</strong> envios apenas para território nacional!
+                </p>
             </div>
-            <div class="faqQuestion">
-                <p><strong>e se eu quiser devolver/trocar meu exemplar?</strong></p>
+            <div class="faqContent">
+                <button class="pergunta">
+                    <h2>e se eu quiser devolver/trocar o meu exemplar?</h2>
+                    <img class="iconFaq" src="assets/imagens/icones/iconSetaFaqClosed.svg" alt="saiba mais">
+                </button>
+                <p class="resposta">depois pôr as mãos no livro, dificilmente você vai querer devolvê-lo 🦋, mas para te tranquilizar temos a seguinte política de troca e devolução: 
+                <br><br>
+                <strong>devolução</strong> 
+                <br><br>
+                - você poderá cancelar o pedido e receber a devolução integral do valor em até 7 dias após a confirmação do pedido. <br><br>
+                - como a confecção e envio do livro é sob demanda, após o prazo informado acima, você tem até 7 dias contados a partir do recebimento da sua encomenda para receber reembolso de 75% do valor do pedido.</li>
+                
+                <br><br>
+                <strong>troca</strong>
+                <br> <br>
+                em caso de avaria do produto durante o envio, você poderá solicitar a troca em até 7 dias após o recebimento do pedido.
+                
+            
+                </p>
             </div>
         </section>
     </main>
-    <footer>
-        <div class="contact">
-            <img src="assets/imagens/logos/logo_instagram.png" alt="">
-            <img src="assets/imagens/logos/logo_whatsapp.png" alt="">
-            <img src="assets/imagens/logos/logo_linkedin.png" alt="">
-            <img src="assets/imagens/logos/logo_github.png" alt="">
+    <footer class="rodape">
+        <div class="rodape__content">
+            <a href="#" title="entre em contato pelo WhatsApp"><svg class="iconeRodape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/></svg></a>
+
+            <a href="#" title="acesse o meu Instagram!"><svg class="iconeRodape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"/></svg></a>
+
+            <a href="#" title="acesse o meu LinkedIn!"><svg class="iconeRodape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg></a>
+
+            <a href="#" title="acesse o meu Github!"><svg class="iconeRodape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
         </div>
-        <p>
-            desenvolvido com carinho por naiane miranda <br>
-            utilizando o figma, html, css e javascript <br>
-            <br>
-            todos os direitos reservados. 2023.
+        <p class="rodape__content">
+            desenvolvido com <svg class="iconeCoracao" title="carinho" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 5.72c-2.624-4.517-10-3.198-10 2.461 0 3.725 4.345 7.727 9.303 12.54.194.189.446.283.697.283s.503-.094.697-.283c4.977-4.831 9.303-8.814 9.303-12.54 0-5.678-7.396-6.944-10-2.461z" fill-rule="nonzero"/></svg> por naiane miranda
         </p>
-        <img src="assets/imagens/logos/logoNaCurvaCriativaRodape.png" alt="">
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
