@@ -52,6 +52,9 @@ sr.reveal('.fotoAutora', {rotate: {x:0, y:30, z:0},
 sr.reveal('.detalhes', {rotate: {x:0, y:30, z:0},
     duration:1500,
     });
+sr.reveal('.sobreCurvaCriativa', {rotate: {x:0, y:30, z:0},
+    duration:1500,
+    });
 
 
 

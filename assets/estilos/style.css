@@ -139,7 +139,7 @@ section{
 }
 /* segundo bloco de conteúdo */
 .inicioBloco2{
-    background: url(assets/imagens/fotos/papersection.png) no-repeat;
+    background: url(../imagens/fotos/papersection.png) no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -191,7 +191,7 @@ section{
 
 /* bloco de conteúdo autora */
 .autora{
-    background: url(assets/imagens/fotos/papersection.png) no-repeat;
+    background: url(../imagens/fotos/papersection.png) no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -487,22 +487,32 @@ section{
 
 @media(max-width:400px){
     .inicioBloco2{
-        background: url(assets/imagens/fotos/papersectionResponsivo.png) no-repeat;
+        background: url(../imagens/fotos/papersectionResponsivo.png) no-repeat;
         -webkit-background-size: cover;
         -o-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
         background-position: center;
         height:max(600px,38vw);
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding: 0;
+        margin: 0;
     }
     .autora{
-        background: url(assets/imagens/fotos/papersectionResponsivo.png) no-repeat;
+        background: url(../imagens/fotos/papersectionResponsivo.png) no-repeat;
         -webkit-background-size: cover;
         -o-background-size: cover;
         -moz-background-size: cover;
         background-size: cover;
         background-position: center;
         height:max(600px,38vw);
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding: 0;
+        margin: 0;
     }
     .blocoResponsivo{
         display: flex;
