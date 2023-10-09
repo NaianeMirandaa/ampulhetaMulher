@@ -72,6 +72,7 @@ section{
 }
 .logo{
     padding-left: 3rem;
+    width: max(150px, 10vw);
 }
 .navList ul{
     display: flex;
@@ -485,6 +486,24 @@ section{
 }
 
 @media(max-width:400px){
+    .inicioBloco2{
+        background: url(assets/imagens/fotos/papersectionResponsivo.png) no-repeat;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        height:max(600px,38vw);
+    }
+    .autora{
+        background: url(assets/imagens/fotos/papersectionResponsivo.png) no-repeat;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        height:max(600px,38vw);
+    }
     .blocoResponsivo{
         display: flex;
         flex-direction: column;
