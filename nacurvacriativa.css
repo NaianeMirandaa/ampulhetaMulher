@@ -14,5 +14,74 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: max(250px, 70vw);
+}
+.layoutAlternativo{
+    display: none;
+}
+.videoCriar{
+    width: 30vw;
+    height: auto;
+    margin-right: 4vw;
+}
+.blocoTexto{
+    width: 45vw;
+    margin-right: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.navItem{
+    display: block;
+}
+.mobileMenuIcon{
+    display: none;
+}
+
+@media (max-width:920px){
+    .videoCriar{
+        width: max(280px, 35vw);
+    }
+}
+@media (max-width:770px){
+    .videoCriar{
+        width: max(300px, 38vw);
+        margin-right: 1rem;
+    }
+    .container h1{
+        display: none;
+    }
+    .layoutAlternativo{
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+}
+@media (max-width:630px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .videoCriar{
+        width: max(280px, 38vw);
+        margin: 0 0 2rem 0;
+    }
+    .container h1{
+        display: none;
+    }
+    .blocoTexto{
+        width: 70vw;
+        text-align: center;
+        margin: 0;
+    }
+    .layoutAlternativo{
+        text-align: center;
+        width: max(70vw, 250px);
+        margin: ;
+    }
+    .botaoPrincipal{
+        margin-bottom: 4rem;
+    }
+
 }
