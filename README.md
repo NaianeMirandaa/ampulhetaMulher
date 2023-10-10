@@ -9,19 +9,20 @@ Nele, apresento o livro e meu projeto criativo, me apresento como autora, dispon
 
 Sua funcionalidade é *apresentar informações no navegador*, sendo da stack *front-end*.
 
-### tecnologias utilizadas
+## Tecnologias utilizadas
 
 O layout inicial foi feito utilizando o Figma e pode ser acessado através do seguinte link:
 [layout no figma](https://www.figma.com/file/Pa9Gh5Zwo2JLcOsQtc6Zvq/layout-de-landing-page-para-meu-livro?type=design&node-id=0%3A1&mode=design&t=YLLoaLHJxaVY6oSS-1)
 
 Edição e design de imagens e animações: Gimp, Krita e Canva.
+
 Código: HTML, CSS, JavaScript e a biblioteca scrollReveal.
 
-## inicialização
+## Inicialização
 
 Para inicializar este projeto localmente, basta cloná-lo em sua máquina e acessar utilizando o navegador de sua preferência. Não é necessário fazer o download de nenhuma ferramenta ou biblioteca específica.
 
-## status
+## Status
 
 O site já está finalizado e pode ser acessado através do seguinte link: 
 
