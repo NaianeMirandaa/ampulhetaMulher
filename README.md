@@ -13,8 +13,9 @@ Sua funcionalidade é *apresentar informações no navegador*, sendo da stack *f
 
 O layout inicial foi feito utilizando o Figma e pode ser acessado através do seguinte link:
 [layout no figma](https://www.figma.com/file/Pa9Gh5Zwo2JLcOsQtc6Zvq/layout-de-landing-page-para-meu-livro?type=design&node-id=0%3A1&mode=design&t=YLLoaLHJxaVY6oSS-1)
-Na edição e design de imagens, foram utilizados Gimp, Krita e Canva.
-No desenvolvimento, foram utilizadas as linguagens HTML, CSS, JavaScript e a biblioteca scrollReveal.
+
+Edição e design de imagens e animações: Gimp, Krita e Canva.
+Código: HTML, CSS, JavaScript e a biblioteca scrollReveal.
 
 ## inicialização
 
@@ -24,6 +25,6 @@ Para inicializar este projeto localmente, basta cloná-lo em sua máquina e aces
 
 O site já está finalizado e pode ser acessado através do seguinte link: 
 
-[Acessar Projeto Publicado - Ampulheta Mulher] (https://naianemirandaa.github.io/ampulhetaMulher/)
+[Acessar Projeto Publicado - Ampulheta Mulher](https://naianemirandaa.github.io/ampulhetaMulher/)
 
 Caso tenha algum elogio ou crítica construtiva sobre o projeto, sinta-se à vontade para entrar em contato comigo via [linkedIn](https://www.linkedin.com/in/naianemirandadejesus/) 🦋
